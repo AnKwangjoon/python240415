@@ -13,4 +13,4 @@ def union(*ar):
 # 여러가지 경우
 print(union("HAM", "SPAM"))
 print(union("HAM", "SPAM", "EGG"))
-print(union("HAM", "SPAM", "EGG"))
+print(union("HAM", "SPAM", "EGG"))0
