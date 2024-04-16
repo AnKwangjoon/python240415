@@ -51,11 +51,11 @@ print("---필터링 함수 있는 경우---")
 def getBiggerThan20(i):
     return i > 20
 
-iterL = filter(getBiggerThan20, 1)
+iterL = filter(getBiggerThan20, l)
 for i in iterL:
     print("Item:{0}".format(i))
 
 print("---람다함수---")
-iterL = filter(lambda x:x>20, 1)
+iterL = filter(lambda x:x>20, l)
 for i in iterL:
     print("Item:{0}".format(i))
