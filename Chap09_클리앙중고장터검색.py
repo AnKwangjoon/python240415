@@ -1,7 +1,10 @@
 #Chap09_클리앙중고장터검색.py
 # coding:utf-8
+# 정적인 웹사이트
 from bs4 import BeautifulSoup
+# 파이썬 내장 Lib
 import urllib.request
+# 정규표현식
 import re 
 
 for n in range(0,10):

@@ -4,6 +4,8 @@ import requests
 # 크롤링
 from bs4 import BeautifulSoup
 
+
+
 url = "https://www.daangn.com/fleamarket/"
 # 페이지 실행 요청
 response = requests.get(url)
@@ -27,7 +29,7 @@ for post in posts:
 
 # 파일 닫기
 f.close()
-
+self.label.setText("당근마켓 크롤링 완료")
     # <div class="card-desc">
     #   <h2 class="card-title">아이폰 15</h2>
     #   <div class="card-price ">
